@@ -1,0 +1,41 @@
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+#floats-wrapper>div{
+	border: 1px solid;
+}
+
+div:not(#container){
+border: 1px solid black;
+height: 10px;
+width: 33%;
+float: left;
+}
+
+#floats-wrapper>div {
+	width: 300;
+	border: 1px solid black;
+	height: 50px
+	float: left;
+}

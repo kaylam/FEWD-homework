@@ -1,0 +1,86 @@
+
+
+* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+body {
+	max-width: 1000px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+}
+
+h1 {
+	color: yellow;
+}
+
+#headerone {
+	background-color: black;
+	color: white;
+	border-bottom: 3px;
+	overflow: hidden;
+	padding-left: 20px;
+	border-bottom: 5px solid yellow;
+
+	}
+
+li {
+	list-style: none;
+	float: left;
+	text-decoration: none;
+}
+.button {font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: yellow;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 15px;
+	border-radius: 5px;
+
+}
+
+nav li a{
+
+	list-style-type: none;
+	display: block;
+	padding: 20px 15px;
+	text-decoration: none;
+	color: white;
+
+}
+ 
+#banner {
+	background-image:url('file://localhost/Users/kaylamcauley/Desktop/Front%20End%20Web%20Class/05_lab/solution/startup_matchmaker_solution/images/coworking.jpg');
+	overflow: hidden;
+}
+
+#box {
+	padding: 10px 10px 10px 10px;
+	width: 30%;
+	background: white;
+	opacity: .6;
+	display: block;
+	margin-left: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.bottom-boxes{
+
+}
+
+.bottom-box{
+	float:right;
+	width: 25%;
+	overflow: hidden;
+	padding: 10px 10px 10px 10px;
+}
+
